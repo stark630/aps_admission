@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-29",
+  "programs": [
+    {
+      "university": "Example University",
+      "programName": "Bachelor of Commerce",
+      "faculty": "Economic and Management Sciences",
+      "minimumAps": 30,
+      "subjectRequirements": {
+        "English Home Language": 4,
+        "Mathematics": 4
+      },
+      "notes": "Illustrative example only; replace with verified current prospectus requirements."
+    }
+  ],
+  "rules": [
+    {
+      "university": "Example University",
+      "subjectsToCount": 6,
+      "excludeLifeOrientation": true,
+      "specialRules": {
+        "minimumPercentages": {
+          "Mathematics": 50
+        }
+      }
+    }
+  ]
+}
